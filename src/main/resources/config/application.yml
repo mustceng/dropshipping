@@ -1,0 +1,24 @@
+spring:
+  datasource:
+
+#    url: jdbc:postgresql://X.X.X.X:5432/proddb
+#    username: produser
+#    password: 12345678
+
+    url: jdbc:postgresql://localhost:5432/testdb
+    username: testuser
+    password: 12345678
+
+  jpa:
+    hibernate:
+#      ddl-auto: create
+      ddl-auto: none
+
+
+  profiles:
+#    include: dropshipping,flyway
+    include: dropshipping
+#    include: dropshipping,generate-ddl
+
+
+
