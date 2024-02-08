@@ -17,7 +17,6 @@ CREATE DATABASE testdb;
 CREATE USER testuser WITH PASSWORD '12345678';
 GRANT ALL PRIVILEGES ON DATABASE testdb TO testuser;
 ```
-git push https://mustceng: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@github.com/mustceng/dropshipping.git
 
 ## Application.yml
 To create the tables in the database, first set ddl-auto=create and run the application.
